@@ -10,3 +10,5 @@ roting - routes banaane ke process ko hum kahte hai roting
 /contact
 /profile/harish/kooejonjoqnaojioe0r0i
 
+middleware ek aisa function hota hai jo har route se pahle chalta hai, iska matlab saare routes mein koi bhi chale usse pahle middleware chalta hai and usemein likha code pahle excute hota 
+
