@@ -4,11 +4,11 @@ const app = express()
 app.set ("view engine", "ejs");
 
 app.get('/', function (req, res) {
-  res.render("index", {age:12});
+  res.render("index");
 })
 
 app.get('/contact', function (req, res) {
-  res.render("contact",);
+  res.render("contact", {name : "Harish"},);
 })
 
 app.listen(3000)
