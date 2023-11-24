@@ -16,7 +16,11 @@ app.get('/', function (req, res) {
 })
 
 app.get('/profile', function (req, res) {
-  res.send('Hello World profile hjklln ghvhgvhg')
+  res.send('Hello World from profile harish')
+})
+
+app.get('/profile/:username', function (req, res) {
+  res.send(`Hello World ${req.params.username}`)
 })
 
 app.listen(3000)
