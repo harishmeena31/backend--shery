@@ -8,7 +8,7 @@ app.get('/', function (req, res) {
 })
 
 app.get('/contact', function (req, res) {
-  res.render("contact", {name : "Harish"},);
+  res.render("contact", {name :"Harish"},);
 })
 
 app.listen(3000)

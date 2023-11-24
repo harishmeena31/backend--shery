@@ -58,3 +58,22 @@ app.set ("view engine", "ejs");
 5) send ki jagah render karo => render karke waqt make sure aap views folder ke ander waali hi koi fie ka naam likhein , aur render funtion me .ejs   mention  na karein
 
 
+template engine => ye ek style of markup se convert karke aapko html dete hai
+
+eg : pug handlebarsa, ejs jad,
+
+ejs is very very similar to html 
+
+
+static files 
+images, stylesheets, frontend js setup karna.
+
+saatatic files setup karne ke liye
+
+1) create a folder called public 
+
+2) create three folder inside it , image stylesheet, javascripts
+
+3) configure the express static 
+
+4) understan the path
