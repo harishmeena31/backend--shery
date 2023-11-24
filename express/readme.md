@@ -55,4 +55,6 @@ app.set ("view engine", "ejs");
 
 4) ek usmein ejs files banao
 
-5) send ki jagah render karo
+5) send ki jagah render karo => render karke waqt make sure aap views folder ke ander waali hi koi fie ka naam likhein , aur render funtion me .ejs   mention  na karein
+
+
