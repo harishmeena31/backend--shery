@@ -7,4 +7,8 @@ app.get('/', function (req, res) {
   res.render("index");
 })
 
+app.get('/contact', function (req, res) {
+  res.render("index");
+})
+
 app.listen(3000)
